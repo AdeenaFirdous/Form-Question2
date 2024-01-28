@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+
+<body>
+    
+        <H1 id="heading">Registration Form</H1><hr/>
+
+    <div class="main">
+    <form>
+        
+        <div class="row">
+        <div class="input-group">
+        <label>Select City</label>
+            <select>
+                <option value=""> </option>
+                <option value="Karachi" >Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Quetta">Quetta</option>
+                <option value=" Peshawar">Peshawar</option>
+            </select>
+
+        </div>
+        <div class="input-group">
+            <label>Select Course</label>
+            <select>
+                <option value=""> </option>
+                <option value="Web Development"> Web Development</option>
+                <option value="Flutter">Flutter</option>
+                <option value="Graphic Desgin">Grahic Desgin</option>
+                <option value="Video Animation">Video Animation</option>
+            </select>
+        </div>
+        
+        </div>
+        <div class="row">
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" name="fullname"  required/>
+        </div>
+        <div class="input-group">
+            <label>Father Name</label>
+            <input type="text" name="father name" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-group">
+            <label> Email </label>
+            <input type="email" name="email"    required/>
+        </div>
+        <div class="input-group">
+            <label> Phone Number</label>
+            <input type="number" name="phone"   required/>
+        </div>
+    </div>
+        <div class="input-group">
+            <label>CNIC Number</label>
+            <input type="number" name="cnic number"   required/>
+
+        </div>
+        <div class="input-group">
+            <label>Father's CNIC (Optional)</label>
+            <input type="number" name="cnic number"   />
+        </div>
+        <div class="row">
+        <div class="input-group">
+          
+            <input type="date" id="DOB"/>
+
+        </div>
+        <div class="input-group">
+            <label>Gender</label>
+            <select>
+                <option value=""></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+
+            </select>
+        </div>
+    </div>
+        <div class="input-group">
+            <label>Address</label>
+            <input type="text" name="address" />
+        </div>
+        <div class="input-group">
+            <label>Last Qualification</label>
+            <select>
+                <option value=""></option>
+                <option value="Matric">Matric</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Maters">Masters</option>
+                <option value="PHD">PHD</option>
+    
+            </select>
+        </div>
+        <div class="input-group">
+            <label>Do you have a Laptop?</label>
+            <select>
+                <option value=""></option>
+                <option value="yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input-group">
+         
+            <input type="file" id="Picture"/>
+        </div>
+        <div class="input-group">
+            <button type="submit">SUBMIT</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
